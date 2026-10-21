@@ -1128,3 +1128,35 @@ h1{font-size:24px}
 .mechanism-bonus-groups>details{margin-top:8px}
 .character-variants section+section{margin-top:16px;padding-top:12px;border-top:1px solid var(--line)}
 @media(max-width:760px){#character-skill-tree .skill-scroll{min-height:320px}.metric dt{font-size:13px}.table-wrap th .name-button{font-size:13px;min-width:6em}}
+
+.mechanics-catalog-note{margin:16px 0;color:var(--muted);font-size:14px}
+.mechanics-category{margin:26px 0}
+.mechanics-category>h2{font-size:22px;margin-bottom:4px}
+.mechanics-category>.muted{margin:0 0 4px;font-size:14px}
+.mechanics-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}
+.mechanics-index-entry{padding:16px 0;border-bottom:1px solid var(--line);min-width:0}
+.mechanics-index-entry h3{font-size:17px;margin:0 0 8px;line-height:1.6}
+.mechanics-index-entry h3 button{font-size:inherit;font-weight:600;line-height:inherit;text-align:left}
+.mechanics-index-entry p{font-size:15px;line-height:1.75;margin:0 0 10px;max-width:70ch}
+.mechanics-meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;color:var(--muted);font-size:13px;line-height:1.7}
+.mechanics-article{max-width:80ch;font-size:16px;line-height:1.85}
+.mechanics-article>section{margin-top:26px}
+.mechanics-article h3{font-size:19px;line-height:1.6;margin:0 0 12px}
+.mechanics-article p{margin:10px 0}
+.mechanics-article li{margin:7px 0}
+.mechanics-article .intro{font-size:17px;margin-top:18px}
+.mechanics-table table{min-width:0;width:100%;table-layout:auto}
+.mechanics-table th,.mechanics-table td,.mechanics-table th:first-child{min-width:0;max-width:none;white-space:normal;overflow-wrap:anywhere;text-align:left;vertical-align:top;font-size:14px;line-height:1.7}
+.mechanics-sources{padding-left:24px}
+.mechanics-sources a,.mechanics-article{overflow-wrap:anywhere}
+.mechanics-sources li>p{color:var(--muted);font-size:14px;margin:4px 0 12px}
+.mechanics-related{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:start}
+.mechanics-related button{font-size:15px;line-height:1.7;text-align:left}
+.mechanics-inline,.unit-auto-reference{margin:22px 0;padding-top:16px;border-top:1px solid var(--line)}
+.mechanics-inline h3,.unit-auto-reference h3{margin:0 0 12px}
+.unit-auto-reference>p{font-size:14px;color:var(--muted)}
+.auto-parameter-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 22px;margin:16px 0}
+.auto-parameter-grid>div{min-width:0}
+.auto-parameter-grid dt{font-size:14px;color:var(--muted);margin-bottom:3px}
+.auto-parameter-grid dd{margin:0;font-size:18px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+@media(max-width:760px){.mechanics-index{grid-template-columns:1fr}.mechanics-article{max-width:none}.mechanics-index-entry{padding:14px 0}.mechanics-category{margin:22px 0}.mechanics-article .intro{font-size:16px}}
