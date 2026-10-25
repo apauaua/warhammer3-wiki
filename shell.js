@@ -17,7 +17,7 @@
   const headings=[...body.querySelectorAll('h3')].filter(h=>!h.closest('details,[hidden],.skill-canvas,.tree-inspector'));
   outline.innerHTML=headings.length>2?'<strong>本页内容</strong>'+headings.map((h,i)=>{h.id='section-'+i;return `<a href="#section-${i}" data-outline="${h.id}">${h.textContent}</a>`;}).join(''):'';
  }
- let update={state:'unconfigured',appVersion:'1.0.0',contentVersion:'2026.10.24.2',message:'更新源尚未配置',repository:'',progress:0},opened=false;
+ let update={state:'unconfigured',appVersion:'1.0.0',contentVersion:'2026.10.25.1',message:'更新源尚未配置',repository:'',progress:0},opened=false;
  const labels={unconfigured:'更新源尚未配置',ready:'可检查更新',checking:'正在检查更新',available:'发现新版本',downloading:'正在下载',verifying:'正在校验',installing:'正在准备内容',installed:'内容已更新',current:'已经是最新版本',error:'更新未完成',cancelled:'下载已取消',rollback:'已恢复上一版'};
  function bridge(action){if(window.chrome?.webview)window.chrome.webview.postMessage({action});}
  function updateView(){
